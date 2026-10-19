@@ -2,13 +2,13 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:ALYA ALI SADEK
+FN:Moualla Suliman Dayoub
 TITLE:Sales Manager
 ORG:RISE Properties
-TEL;TYPE=WORK,VOICE:+971‬‬‬‬526113198‬‬
-EMAIL:alyabranch@riseproperties.ae
+TEL;TYPE=WORK,VOICE:+971526405097‬
+EMAIL:sulimandayoub@riseproperties.ae
 URL:http://www.riseproperties.ae
-ADR;TYPE=WORK:;;PO Box No 181702, Office NO.1607, Opal Tower, Business Bay;Dubai;;UAE
+ADR;TYPE=WORK:;;PO Box No 181702, Office NO.1604, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
   `.trim();
 
@@ -17,7 +17,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'ALYA ALI SADEK.vcf';
+  a.download = 'Moualla Suliman Dayoub.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
